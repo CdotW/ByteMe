@@ -4,14 +4,188 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Untitled Document</title>
+  <title>ByteMe</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower|Changa+One' rel='stylesheet' type='text/css'>
   <!-- Place favicon.ico in the root directory -->
   
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+            /**********************************
+            GENERAL
+            ***********************************/
+
+            body {
+                font-family: 'Open Sans', sans-serif;
+                margin: 0;
+            }
+
+            #wrapper {
+                max-width: 940px;
+                margin: 0 auto;
+                padding: 0 5%;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            h3 {
+                font-size: 1.17em;
+                margin: 0 0 1em 0;
+            }
+
+            section {
+                padding: 1em;
+                display: inline-block;
+                border: thin solid black;
+            }
+
+            /**********************************
+            HEADING
+            ***********************************/
+
+            header {
+                float: left;
+                margin: 0 0 30px 0;
+                padding: 5px 0 0 0;
+                width: 100%;
+            }
+
+            #logo {
+                text-align: center;
+                margin: 0;
+                float: left;
+                margin-left: 5%;
+                text-align: left;
+                width: 42%;
+            }
+
+            h1 {
+                font-family: 'Changa One', sans-serif;
+                margin: 15px 0;
+                font-size: 2.5em;
+                font-weight: normal;
+                line-height: 0.8em;
+            }
+
+            h2 {
+                font-size: 0.75em;
+                margin: -5px 0 0;
+                font-weight: normal;
+            }
+
+            /**********************************
+            NAVIGATION
+            ***********************************/
+
+            nav {
+                text-align: center;
+                padding: 10px 0;
+                margin: 20px 0 0;
+            }
+
+            nav ul {
+                list-style: none;
+                margin: 0 10px;
+                padding: 0;
+            }
+
+            nav li {
+                display: inline-block;
+            }
+
+            nav a {
+                font-weight: 800;
+                padding: 15px 10px;
+            }
+
+            /**********************************
+            FOOTER
+            ***********************************/
+
+            footer {
+                font-size: 0.75em;
+                text-align: center;
+                clear: both;
+                padding-top: 50px;
+                color: #ccc;
+                border: thin dotted black;
+            }
+
+            .social-icon {
+                width: 20px;
+                height: 20px;
+                margin: 0 5px;
+            }
+            
+            /**********************************
+            PAGE: ABOUT
+            ***********************************/
+            
+            .profile-photo {
+                display: block;
+                max-width: 150px;
+                margin: 0 auto 30px;
+                border: thin dashed black;
+            }
+            nav {
+                float: right;
+                font-size: 1.125em;
+                margin-right: 5%;
+                text-align: right;
+                width: 47%;
+            }
+
+            /**********************************
+            COLORS
+            ***********************************/
+
+            /* site body */
+            body {
+                background-color: #fff;
+                color: #999;
+            }
+
+            /* green header */
+            header {
+                background: #6ab47b;
+                border-color: #599a68;
+                border-bottom: 5px solid #599a68;
+                margin-bottom: 60px;
+            }
+
+            /* logo text */
+            h1, h2 {
+                color: #fff;
+            }
+
+            /* links */
+            a {
+                color: #6ab47b;
+            }
+
+            /* nav link */
+            nav a, nav a:visited {
+                color: #fff;
+            }
+
+            /* selected nav link */
+            nav a.selected, nav a:hover {
+                color: #32673f;
+            }
+            #navFoot a {
+                color: #999;
+            }
+            
+        </style>
 </head>
 
 <body>
@@ -25,5 +199,50 @@
   <script>
     <!-- JS on the page -->
   </script>
+  <header>
+            <a href="index.html" id="logo">
+                <h1>ByteMe</h1>
+                <h2>Developers</h2>    
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="selected">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <section>
+                <img src="" alt="Photograph of " class="profile-photo">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
+                    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat 
+                    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
+                    Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. 
+                    Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, 
+                    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, 
+                    luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt 
+                    tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis </p>
+            </section>
+            
+            <footer>
+                <a href="http://twitter.com/"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+                <nav id="navFoot">
+                    <p>
+                        <a href="index.html">About</a> |
+                        <a href="port.html">Portfolio</a> |
+                        <a href="contact.html">Contact</a>
+                    </p>
+                </nav>
+                <p>&copy; 2017 ByteMe</p>
+                
+            </footer>
+        </div>
 </body>
 </html>
